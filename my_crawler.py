@@ -4,8 +4,8 @@
 from urllib import parse, error, request, robotparser
 import re
 
-from mypackage.crawler_study import scrapecallback
-from mypackage.crawler_study.downloader import Downloader, Thottle
+import scrapecallback
+from downloader import Downloader, Thottle
 
 
 def link_crawler(seed_url, webpage_regex="", max_depth=2, user_agent="wswp", num_retries=2, proxies=None, headers=None, scrape_callback=None, cache=None):

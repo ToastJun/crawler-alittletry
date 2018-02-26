@@ -8,7 +8,7 @@ import pickle
 import zlib
 from datetime import datetime, timedelta
 
-from mypackage.crawler_study.my_crawler import link_crawler
+from my_crawler import link_crawler
 
 
 class DiskCache(object):
